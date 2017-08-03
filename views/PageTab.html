@@ -1,10 +1,18 @@
-<div>
-     <div>
-         <span style="width:100px" ui-sref=".Page1"><a href="">Page-1</a></span>
-         <span style="width:100px" ui-sref=".Page2"><a href="">Page-2</a></span>
-         <span style="width:100px" ui-sref=".Page3"><a href="">Page-3</a></span>
+<div class="main-content">
+     <div class="menu">
+         <span  class="menu-item"  ui-sref=".Page1"><a href="">Page-1</a></span>
+         <span  class="menu-item"  ui-sref=".Page2"><a href="">Page-2</a></span>
+         <span  class="menu-item"  ui-sref=".Page3"><a href="">Page-3</a></span>
      </div>
-     <div>
+     <div class="sub-menu">
+     	<ul>
+     		<li>1</li>
+     		<li>1</li>
+     		<li>1</li>
+     		<li>1</li>
+     	</ul>
+     </div>
+     <div class="content">
           <div ui-view=""></div>
      </div>
 </div>
